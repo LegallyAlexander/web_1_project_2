@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    background-image: url("assets/textures/fabric_plaid.png");
+    background-repeat: repeat;
+    font-family: 'museo';
+}
+
+@font-face {
+    font-family: 'museo';
+    src: url(assets/fonts/museo/museo-300-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* header, body, footer */
+
+header {
+    height: 460px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    color: #bdbdbd;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+body {
+}
+
+footer {
+}
+
+/* Mainly header details */
+
+a {
+    text-decoration: none;
+    color: #858585;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 95px;
+}
+
+.tinylogos {
+    max-width: 30px;
+    border-radius: 10%;
+}
+
+.info {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    display:flex;
+    justify-content: space-between;
+    width: 12%;
+}
+
+.infolinks {
+    display: block;
+    text-align: right;
+    margin-right: 0;
+    bottom: 0;
+}
+
+.account {
+    color: #bdbdbd;
+}
+
+/* Mainly body details */
+
+.proj-slide {
+    display: block;
+    border: solid 10px white;
+    margin-top: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.slide {
+    max-width: 100%;
+}
