@@ -20,7 +20,7 @@
 /* header, body, footer */
 
 header {
-    height: 460px;
+    height: 75px;
     margin-top: 20px;
     margin-right: 40px;
     margin-left: 40px;
@@ -67,12 +67,6 @@ nav {
 .tinylogos {
     max-width: 30px;
     border-radius: 10%;
-}
-
-.info {
-    width: 12%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .about {
