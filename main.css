@@ -10,6 +10,11 @@
     src: url(assets/fonts/museo/museo-300-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
+
+    font-family: 'museo';
+    src: url(assets/fonts/blanch/museo-300-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* header, body, footer */
