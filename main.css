@@ -2,17 +2,13 @@
     margin: 0;
     background-image: url("assets/textures/fabric_plaid.png");
     background-repeat: repeat;
+    background-size: contain;
     font-family: 'museo';
 }
 
 @font-face {
     font-family: 'museo';
     src: url(assets/fonts/museo/museo-300-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-    font-family: 'museo';
-    src: url(assets/fonts/blanch/museo-300-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,11 +27,13 @@ header {
 }
 
 body {
+    text-align: center;
 }
 
 footer {
-    background-image: url("assets/texture/az_subtle.png") !important;
+    background-image: url("assets/texture/az_subtle.png");
     background-repeat: repeat;
+    background-size: cover;
     height: 300px;
 }
 
@@ -56,7 +54,7 @@ nav {
 
 .info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -70,7 +68,7 @@ nav {
 }
 
 .about {
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -89,35 +87,51 @@ nav {
 
 .proj-slide {
     display: inline;
-    margin-top: 0 auto;
+    position: relative;
 }
 
 .slide {
     border: solid 10px white;
-    max-width: 95%;
+    max-width: 90%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+
     position: relative;
 }
 
 #arrow {
-    max-width: 10%;
+    max-width: 25%;
 }
 
 .leftA {
     display: inline-block;
     margin: 0 auto;
 
-    width: 100%;
-    max-height: 100%;
-    height: auto;
-    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
 }
 
 .rightA {
+    margin: 0 100%;
+}
 
-    margin: 0 auto;
+.picture-alignment {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    flex: 0 0 33.3333%;
+    flex-basis: 50%;
+}
 
-    width: 100%;
-    max-height: 100%;
+.picture-alignment>img {
+    max-width: 250px;
+    max-height: 200px;
+    width: auto;
     height: auto;
-    max-width: 100%;
+
+    margin: 10px;
 }
