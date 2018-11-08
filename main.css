@@ -31,10 +31,12 @@ body {
 }
 
 footer {
-    background-image: url("assets/texture/az_subtle.png");
+    background-image: url("assets/textures/az_subtle.png");
     background-repeat: repeat;
-    background-size: cover;
+    background-size: contain;
     height: 300px;
+
+    filter: brightness(75%);
 }
 
 /* Mainly header details */
@@ -126,9 +128,6 @@ nav {
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    flex: 0 0 33.3333%;
-    flex-basis: 50%;
 }
 
 .picture-alignment>img {
@@ -138,4 +137,13 @@ nav {
     height: auto;
 
     margin: 10px;
+}
+
+
+/* Footer details */
+.twitterdiv {
+    color: white;
+    background-color: #666;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
