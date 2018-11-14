@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+
+    background-image: url("assets/textures/fabric_plaid.png");
+    background-repeat: repeat;
+    background-size: contain;
+    
+    font-family: 'museo';
+}
+
+@font-face {
+    font-family: 'museo';
+    src: url(assets/fonts/museo/museo-300-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* header, body, footer */
+
+header {
+    height: 75px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    color: #bdbdbd;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+body {
+    text-align: center;
+}
+
+footer {
+    height: 300px;
+}
+
+/*Text Colors*/
+
+a {
+    text-decoration: none;
+    color: #858585;
+}
+
+h4 {
+    color: white;
+}
+
+/* Mainly header details */
+
+nav {
+    display: flex;
+    flex-flow: wrap row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    max-width: 95px;
+}
+
+.tinylogos {
+    max-width: 30px;
+    border-radius: 10%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infolinks {
+    display: block;
+    text-align: right;
+    margin-right: 0;
+    bottom: 0;
+}
+
+/*body design */
+.top {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-slide {
+    display: flex;
+    position: relative;
+}
+
+.slide {
+    border: solid 10px white;
+    max-width: 70%;
+    display: inline;
+    margin-left: 50px;
+
+    position: relative;
+}
+
+.profilepic {
+    max-width: 25%;
+}
+/* footer design */ 
+
+.footerinfo {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: flex-start;
+    alignment: flex-start;
+    padding-right: 50%;
+}
+
+.footermenu {
+    display: flex;
+    flex-flow: wrap row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account {
+    color: #bdbdbd;
+}
