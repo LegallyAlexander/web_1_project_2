@@ -15,6 +15,13 @@
     font-style: normal;
 }
 
+.nessst {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* header, body, footer */
 
 header {
@@ -34,6 +41,10 @@ body {
 
 footer {
     height: 300px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: left;
 }
 
 /*Text Colors*/
@@ -47,7 +58,7 @@ h4 {
     color: white;
 }
 
-/* Mainly header details */
+/* header details */
 
 nav {
     display: flex;
@@ -72,44 +83,12 @@ nav {
     border-radius: 10%;
 }
 
-.about {
-    display: flex;
-    justify-content: space-between;
-}
-
 .infolinks {
     display: block;
     text-align: right;
     margin-right: 0;
     bottom: 0;
 }
-
-/*body design */
-.top {
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
-}
-
-.proj-slide {
-    display: flex;
-    position: relative;
-}
-
-.slide {
-    border: solid 10px white;
-    max-width: 70%;
-    display: inline;
-    margin-left: 50px;
-
-    position: relative;
-}
-
-.profilepic {
-    max-width: 25%;
-}
-/* footer design */ 
 
 .footerinfo {
     display: flex;
