@@ -1,11 +1,10 @@
 * {
     margin: 0;
 
-    /*
     background-image: url("assets/textures/fabric_plaid.png");
     background-repeat: repeat;
     background-size: contain;
-    */
+    
     font-family: 'museo';
 }
 
@@ -143,20 +142,20 @@ nav {
     padding: 10px;
 }
 
-.picture-alignment {
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
+.gallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-auto-rows: 250px ;
+    grid-auto-flow: dense;
+    
+    margin: 20px;
 }
 
-.picture-alignment>img {
-    max-width: 250px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
-
-    margin: 10px;
+.gallery>img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
 }
 
 
@@ -167,7 +166,7 @@ nav {
     padding-bottom: 5px;
 }
 
-/*
+
 .footertexture {
     background: 
         linear-gradient(
@@ -180,15 +179,13 @@ nav {
 
     height: 250px;
 }
-*/
+
 
 .footerinfo {
     display: flex;
     flex-flow: wrap column;
     justify-content: center;
     alignment: center;
-
-    border: 5px solid black;
 }
 
 .footermenu {
@@ -204,10 +201,13 @@ nav {
 }
 
 .footerimgs{
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: flex-start;
-    align-items: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-auto-rows: 50px ;
+    grid-auto-flow: dense;
+    
+    margin: 5px;
 }
 
 .footerimgs>img {
@@ -215,6 +215,6 @@ nav {
     max-height: 50px;
     width: auto;
     height: auto;
-
+    object-fit: cover;
     margin: 10px;
 }
