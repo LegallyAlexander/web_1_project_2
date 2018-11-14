@@ -109,3 +109,22 @@ nav {
 .account {
     color: #bdbdbd;
 }
+
+/* Mainly body details */
+
+.proj-slide {
+    display: inline;
+    max-width: 700px;
+    margin-left: auto;
+}
+
+.slide {
+    border: solid 10px white;
+    max-width: 90%;
+    display: inline;
+
+    position: relative;
+}
+.profilepic {
+    max-width: 15%;
+}
